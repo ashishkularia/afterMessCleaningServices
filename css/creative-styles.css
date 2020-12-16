@@ -10,6 +10,22 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ .card-login .card-header{margin:-40px 20px 15px;padding:20px 0}
+.card-login .text-divider{margin-top:30px;margin-bottom:0;text-align:center}
+.card-login .card-body{padding: 6px 33px 16px 33px;}
+.card-login .form-check{padding-top:27px}
+.card-login .form-check label{margin-left:18px}
+.card-login .form-check .form-check-sign{padding-right:27px}
+.card-login .input-group{padding-bottom:7px;margin:27px 0 0}
+.card-login .form{   }
+.card-login .social-line{margin-top:1rem;text-align:center;padding:0}
+.card .card-header{color:white; border-radius:3px;padding:1rem 15px;margin-left:15px;margin-right:15px;margin-top:-30px;border:0;background:linear-gradient(60deg,#f4623a,#ea7b08);)}
+.card .card-header .title{color:#fff}
+.card .card-header:not([class*=header-]){box-shadow:0 16px 38px -12px rgba(0,0,0,.56),0 4px 25px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2)}
+.card{ padding-bottom: 8%;}
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
