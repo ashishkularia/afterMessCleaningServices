@@ -15,16 +15,15 @@ function showHint(str) {
 }
 
 function login() {
-  if (str.length == 0) {
-    uname = document.getElementById("uname").innerHTML;
-    pass = document.getElementById("pass").innerHTML;
+    uname = document.getElementById("lUname").value;
+    pass = document.getElementById("lPass").value;
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
+        alert("worked");
         document.getElementById("txtHint").innerHTML = this.responseText;
       }
     };
-    xmlhttp.open("POST", "master.php?q=login&uname=" + uname + "&pass=" + pass, true);
+    xmlhttp.open("POST", "../master.php?q=login&uname=" + uname + "&pass=" + pass, true);
     xmlhttp.send();
-  }
 }

@@ -418,126 +418,123 @@
             </div>
         </div>
 
-		<!-- Modal --------------------------------------------login-->
-		
+		<!-- Modal --------------login-->
         <div class="portfolio-modal modal fade" id="Modallogin" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-				<div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-				<div class="loginmodal container">
-                    <div class="card card-login">
-					<form class="form">
-						<div class="card-header card-header-primary text-center">
-							<h4 class="card-title">Login Here</h4>
-						</div>
-                
-                <div class="card-body">
-                  
-                  <span class="bmd-form-group"><div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="fas fa-envelope"></i>
-                      </span>
+				    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+				    <div class="loginmodal container">
+                        <div class="card card-login">
+                            <form class="form">
+                                <div class="card-header card-header-primary text-center">
+                                    <h4 class="card-title">Login Here</h4>
+                                </div> 
+                                <div class="card-body"> 
+                                    <span class="bmd-form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <input type="email" class="form-control" placeholder="Email" id="lUname">
+                                        </div>
+                                    </span>
+                                    <span class="bmd-form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-lock"></i>
+                                                </span>
+                                            </div>
+                                            <input type="password" class="form-control" placeholder="Password" autocomplete=off id="lPass">
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="footer text-center">
+                                    <a href="javascript:login();" class="btn btn-primary btn-xl">Login</a>
+                                </div>	
+                            </form>
+                            Don't have an account yet. <a data-dismiss="modal" data-toggle="modal" href="#Modalsignup">Click here to Sign up now!</a>
+                        </div>
                     </div>
-                    <input type="email" class="form-control" placeholder="Email">
-                  </div></span>
-                  <span class="bmd-form-group"><div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="fas fa-lock"></i>
-                      </span>
-                    </div>
-                    <input type="password" class="form-control" placeholder="Password" autocomplete="">
-                  </div></span>
-                </div>
-                <div class="footer text-center">
-                  <a href="javascript:;" class="btn btn-primary btn-xl">Login</a>
-                </div>
-				
-              </form>
-			  Don't have an account yet.  <a data-dismiss="modal" data-toggle="modal" href="#Modalsignup">Click here to Sign up now!</a>
-            </div>
-			
-			</div>
-			
                 </div>
             </div>
         </div>
 		
-		<!-- Modal --------------------------------------------Sign up-->
-		
+		<!--Modal----------------------Sign up-->
         <div class="portfolio-modal modal fade" id="Modalsignup" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-				<div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-				<div class="loginmodal container">
-                    <div class="card card-login">
-					<form class="form">
-						<div class="card-header card-header-primary text-center">
-							<h4 class="card-title">Sign up</h4>
-						</div>
-                
-                <div class="card-body">
-				
-                  <span class="bmd-form-group"><div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="fas fa-user"></i>
-                      </span>
+				    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+				    <div class="loginmodal container">
+                        <div class="card card-login">
+                            <form class="form">
+                                <div class="card-header card-header-primary text-center">
+                                    <h4 class="card-title">Sign up</h4>
+                                </div>
+                                <div class="card-body">
+                                    <span class="bmd-form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                    </span>
+                                    <span class="bmd-form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </span>
+                                    <span class="bmd-form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-phone"></i>
+                                                </span>
+                                            </div>
+                                            <input type="phone" class="form-control" placeholder="Phone">
+                                        </div>
+                                    </span>
+                                    <span class="bmd-form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-lock"></i>
+                                                </span>					  
+                                            </div>
+                                            <input type="password" class="form-control" placeholder="Password" autocomplete="">
+                                        </div>
+                                    </span>
+				                    <span class="bmd-form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-lock"></i>
+                                                </span>					  
+                                            </div>
+                                            <input type="password" class="form-control" placeholder="Confirm Password" autocomplete="">
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="footer text-center">
+                                    <a href="javascript:;" class="btn btn-primary btn-xl">Get Started</a>
+                                </div>
+                            </form>
+                            Have an account already?<a data-dismiss="modal" data-toggle="modal" href="#Modallogin">Click here to login into your account.</a>
+                        </div>
                     </div>
-                    <input type="text" class="form-control" placeholder="Name">
-                  </div></span>
-				  
-                  <span class="bmd-form-group"><div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="fas fa-envelope"></i>
-                      </span>
-                    </div>
-                    <input type="email" class="form-control" placeholder="Email">
-                  </div></span>
-				  
-				  <span class="bmd-form-group"><div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="fas fa-phone"></i>
-                      </span>
-                    </div>
-                    <input type="phone" class="form-control" placeholder="Phone">
-                  </div></span>
-				  
-                  <span class="bmd-form-group"><div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="fas fa-lock"></i>
-                      </span>					  
-                    </div>
-                    <input type="password" class="form-control" placeholder="Password" autocomplete="">
-                  </div></span>
-				  
-				  <span class="bmd-form-group"><div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="fas fa-lock"></i>
-                      </span>					  
-                    </div>
-                    <input type="password" class="form-control" placeholder="Confirm Password" autocomplete="">
-                  </div></span>
-				  
-                </div>
-                <div class="footer text-center">
-                  <a href="javascript:;" class="btn btn-primary btn-xl">Get Started</a>
-                </div>
-              </form>
-			  Have an account already?  <a data-dismiss="modal" data-toggle="modal" href="#Modallogin">Click here to login into your account.</a>
-            </div>
-			</div>
                 </div>
             </div>
         </div>
-
-
-
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
